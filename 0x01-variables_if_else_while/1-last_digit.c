@@ -17,7 +17,6 @@ int main(void)
 			srand(time(0));
 				n = rand() - RAND_MAX / 2;
 					/* your code goes there */
-	displayLast() {
 
 				int lastDigit;
 
@@ -36,6 +35,4 @@ int main(void)
 					printf("Last digit of %d is %d and is less than 6 and not 0", n, lastDigit);
 				}
 					return (0);
-	}
-	printf(displayLast)
 }
