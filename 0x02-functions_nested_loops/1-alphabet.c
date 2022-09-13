@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	print_alphabet();
+	void print_alphabet(void);
 	{
 		for (i = 'a'; i <= 'z'; i++)
 		{
