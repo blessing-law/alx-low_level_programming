@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-print_alphabet()
+void print_alphabet(void)
 {
 	int i;
 
@@ -13,7 +13,7 @@ print_alphabet()
 	{
 		_putchar(i);
 	}
-	_putchar(0);
+	_putchar('\n');
 }
 
 int main(void)
