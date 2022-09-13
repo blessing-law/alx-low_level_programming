@@ -12,5 +12,5 @@ int abs(int i);
 
 int _abs(int)
 {
-	return (abs(int i));
+	return (abs(i));
 }
