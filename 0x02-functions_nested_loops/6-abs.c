@@ -8,9 +8,9 @@
  * @int: interger to be calculated
  */
 
-int abs(int);
+int abs(int i);
 
 int _abs(int)
 {
-	return (abs(int));
+	return (abs(int i));
 }
