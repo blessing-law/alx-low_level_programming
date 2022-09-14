@@ -11,6 +11,8 @@ void jack_bauer(void)
 
 	while (j < 24)
 	{
+		int i;
+
 		_putchar(j);
 		_putchar(':');
 		for (i = 0; i < 60; i++)
