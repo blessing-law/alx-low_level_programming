@@ -12,19 +12,26 @@ void print_square(int size)
 {
 	int i = 0;
 	int j;
-
-	while (i < size)
+	if (size > 1)
 	{
-		j = 0;
-
-		while (j < size -1)
-		{
-			_putchar('#');
-			_putchar(' ');
-			j++;
-		}
-		_putchar('#');
 		_putchar('\n');
-		i++;
 	}
+	else
+	{
+		while (i < size)
+		{
+			j = 0;
+
+			while (j < size -1)
+			{
+				_putchar('#');
+				_putchar(' ');
+				j++;
+			}
+			_putchar('#');
+			_putchar('\n');
+			i++;
+		}
+	}
+	_putchar('\n');
 }
