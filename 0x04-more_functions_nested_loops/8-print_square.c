@@ -23,16 +23,14 @@ void print_square(int size)
 		{
 			j = 0;
 
-			while (j < size - 1)
+			while (j < size)
 			{
 				_putchar('#');
 				_putchar(' ');
 				j++;
 			}
-			_putchar('#');
 			_putchar('\n');
 			i++;
 		}
 	}
-	_putchar('\n');
 }
