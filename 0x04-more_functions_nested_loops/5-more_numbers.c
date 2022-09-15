@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * more_numbers - print 0 - 14 ten times
+ * more_numbers - print zero to fourteen ten times
  *
  * return void
  */
@@ -10,11 +10,11 @@
 void more_numbers(void)
 {
 	int i;
-	int j = '0';
+	int j = 0;
 
-	while (j < '11')
+	while (j < 11)
 	{
-		for (i = '0'; i < '15'; i++)
+		for (i = 0; i < 15; i++)
 		{
 			_putchar(i);
 		}
