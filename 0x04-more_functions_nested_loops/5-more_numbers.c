@@ -13,18 +13,18 @@ void more_numbers(void)
 	int j = '0';
 	int y;
 
-	while (j <= '9' )
+	while (j <= '9')
 	{
 		for (i = '0'; i <= '9'; i++)
 		{
 			_putchar(i);
 		}
 
-		for (y = 48; y < 53; y++)
+		for (y = '0'; y < '5'; y++)
 		{
-			_putchar(49 + y);
+			_putchar(y);
 		}
-		
+
 		j++;
 		_putchar('\n');
 	}
