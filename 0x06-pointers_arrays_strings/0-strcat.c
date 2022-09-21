@@ -12,8 +12,8 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char dest[50];
-	char scr[50];
+	char dest[100];
+	char scr[];
 
 	strcat(dest, src);
 
