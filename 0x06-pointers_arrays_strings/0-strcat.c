@@ -3,20 +3,15 @@
 #include <string.h>
 
 /**
- * _strcat - concatinate two strings
- *
+ * _strcat - concatenate two strings
  * @dest: first string
  * @src: second string
  *
- * Return: pointer to dest
+ * Return: pointer to resulting string
  */
 
 char *_strcat(char *dest, char *src)
 {
-	char dest[100];
-	char scr[];
-
 	strcat(dest, src);
-
 	return (0);
 }
