@@ -7,7 +7,7 @@
  * @s1: first string to be compared
  * @s2: second string to be compared
  *
- * Return: -15 if s1<s2, 0 if s1=s2, 15 if s1>s2
+ * Return: result of strcmp
  */
 
 int _strcmp(char *s1, char *s2)
