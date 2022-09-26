@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * *_memset(char *s, char b, unsigned int n) - fill memeory with constant byte
+ *_memset - fill memeory with constant byte
  *
  * @s: pointer to memory to eb filled
  * @b: value to be set
