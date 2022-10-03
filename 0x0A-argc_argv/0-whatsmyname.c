@@ -8,7 +8,8 @@
  * Return: void
  */
 
-void _print_name(int argc, char *argv)
+int _print_name(int argc, char *argv)
 {
 	printf("%s\n", *argv);
+	return (0);
 }
