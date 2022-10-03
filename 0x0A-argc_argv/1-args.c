@@ -13,10 +13,6 @@
 
 int print_argument(int argc, char *argv[])
 {
-	int i;
-
-	for (i = 0; i > argc -1; i++)
-	{
-		printf("%d\n", argc[i]);
-	}
+	printf("%d\n", argc);
+	return (0);
 }
