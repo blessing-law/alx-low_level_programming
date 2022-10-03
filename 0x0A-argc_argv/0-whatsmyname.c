@@ -3,13 +3,19 @@
 #include "main.h"
 
 /**
- * _print_name: print name of function
+ * _print_name - print name of function
+ * @argc: argument count
+ * @argv: argument vector
  *
  * Return: void
  */
 
-int _print_name(int argc, char *argv)
+void _print_name(int argc, char *argv)
 {
-	printf("%s\n", *argv);
-	return (0);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argc[i];
+	}
 }
