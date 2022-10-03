@@ -10,6 +10,5 @@
 
 void _print_name(int argc, char *argv)
 {
-	_putchar(_print_name);
-	_putchar('\n');
+	printf("%s\n", *argv);
 }
