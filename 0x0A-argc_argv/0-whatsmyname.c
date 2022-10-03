@@ -10,7 +10,7 @@
  * Return: void
  */
 
-void main(int argc, char *argv)
+int main(int argc, char *argv)
 {
 	int i;
 
@@ -18,4 +18,5 @@ void main(int argc, char *argv)
 	{
 		printf("%s\n", argc[i];
 	}
+	return (0);
 }
