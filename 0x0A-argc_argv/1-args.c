@@ -6,6 +6,7 @@
 /**
  * main - print number of arguments
  * @argc: number of arguments
+ * @argv: argument vector
  *
  * Return: 0
  */
