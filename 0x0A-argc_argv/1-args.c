@@ -4,14 +4,14 @@
 #include "main.h"
 
 /**
- * print_argument - print all arguments
+ * main - print all arguments
  * @argc: arguments count
  * @argv: argument vector
  *
  * Return: 0
  */
 
-int print_argument(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%d\n", argc);
 	return (0);
