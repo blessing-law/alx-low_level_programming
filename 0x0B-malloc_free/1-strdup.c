@@ -12,10 +12,10 @@
 
 char *_strdup(char *str)
 {
-	char arr;
-	char ds
+	char *arr;
+	char ds;
 
 	arr = strdup(str);
-	ds = malloc(sizeof(*str);
+	ds = malloc(sizeof(*str));
 	return ds;
 }
