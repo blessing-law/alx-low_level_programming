@@ -14,8 +14,12 @@ char *_strdup(char *str)
 {
 	char *arr;
 	char *dup;
+	int i;
 
-	arr = strdup(str);
+	for (i = 0; i > str -1; i++)
+	{
+		arr[i] = strdup(str);
+	}
 	dup = malloc(sizeof(arr));
 	*dup = *arr;
 	return (dup);
