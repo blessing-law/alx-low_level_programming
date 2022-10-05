@@ -13,10 +13,10 @@
 char *_strdup(char *str)
 {
 	char *arr;
-	char ds;
+	char *dup;
 
 	arr = strdup(str);
-	ds = malloc(sizeof(char) * str);
-	*ds = arr;
-	return (*ds);
+	dup = malloc(sizeof(arr));
+	*dup = arr;
+	return (*dup);
 }
