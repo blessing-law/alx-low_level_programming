@@ -18,10 +18,11 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 	{
-		return (NULL):
+		return (NULL)
 	}
 
-	dup = malloc(sizeof(str))
+	dup = malloc(sizeof(str));
+
 	for (i = 0; i < str; i++)
 	{
 		arr[i] = strdup(str);
@@ -29,7 +30,7 @@ char *_strdup(char *str)
 	}
 	if (*arr == NULL)
 	{
-		return (NULL):
+		return (NULL);
 	}
 	return (dup);
 }
