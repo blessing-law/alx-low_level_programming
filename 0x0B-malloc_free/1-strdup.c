@@ -16,11 +16,20 @@ char *_strdup(char *str)
 	char *dup;
 	int i;
 
-	for (i = 0; i > str -1; i++)
+	if (str == NULL)
+	{
+		return (NULL):
+	}
+
+	dup = malloc(sizeof(str))
+	for (i = 0; i < str; i++)
 	{
 		arr[i] = strdup(str);
+		*dup = arr[i];
 	}
-	dup = malloc(sizeof(arr));
-	*dup = *arr;
+	if (*arr == NULL)
+	{
+		return (NULL):
+	}
 	return (dup);
 }
