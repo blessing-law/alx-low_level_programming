@@ -2,6 +2,6 @@
 #define OBJECT_LIKE_MACRO_H_
 
 #include <stdio.h>
-#define SIZE 1042
+#define SIZE 1024
 
 #endif
