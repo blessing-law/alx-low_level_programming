@@ -1,1 +1,1 @@
-#define SIZE 1042
+#define SIZE(n) 1042
