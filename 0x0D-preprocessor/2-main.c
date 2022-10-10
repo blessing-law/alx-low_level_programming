@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib>
-#define _FILE_
 
 /*
- * main -print file name
+ * main - print file name
  *
  * Return: 0
  */
