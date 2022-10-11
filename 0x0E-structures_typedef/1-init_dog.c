@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "main.h"
 #include <string.h>
 #include "dog.h"
+#include <stdlib.h>
 
 /**
  * init_dog - initianilze a variable called struct dog
