@@ -7,6 +7,8 @@
  * @array: array to be searched
  * @size: size of array
  * @cmp: pointet to function
+ *
+ * Return: first element not to return 0
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
