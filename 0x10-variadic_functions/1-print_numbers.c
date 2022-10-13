@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <stdoi.h>
+#include <stdio.h>
 #include <stdarg.h>
 #include "variadic_functions.h"
 
@@ -13,11 +13,22 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
 	unsigned int i;
-	int sum;
+	int num;
 
-	va_start(ap, separator, count);
+	va_start(ap, n);
 
 	for (i = 0; i < n; i++)
 	{
-		printf(
+		num = va_arg(ap, int);
+		if (separator == 0)
+		{
+			printf("%d", num);
+		}
+		else
+		{
+			printf("%d%s", num, separator);
+		}
+		va_end(ap);
+		printf("\n");
+	}	
 }
