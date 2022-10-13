@@ -16,6 +16,10 @@ int sum_them_all(const unsigned int n, ...)
 	int sum;
 
 	va_start(ap, n);
+	if (n == 0)
+	{
+		return;
+	}
 
 	sum = 0;
 	for (i = 0; i < n; i++)
