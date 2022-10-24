@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- *  print_listint - print list
+ *  print_listint - print elements of list
  *  @h: list head
  *
- *  Return numeber of nodes
+ *  Return: numeber of nodes
  */
 
 size_t print_listint(const listint_t *h)
