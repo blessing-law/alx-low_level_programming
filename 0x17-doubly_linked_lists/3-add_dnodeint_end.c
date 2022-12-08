@@ -8,7 +8,7 @@
  * @head: pointer to beginning of list
  * @n: data of element
  *
- * return: adress of new element or NULL on failure
+ * Return: adress of new element or NULL on failure
  */
 
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
