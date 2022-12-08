@@ -3,7 +3,7 @@
 #include <string.h>
 #include "lists.h"
 
-/*
+/**
  * print_dlistint - print all elements of list
  *@h: pointer to first node
  *
